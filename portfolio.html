@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="toogle" onclick="toogleMenu();"></div>
+        <ul class="navigation">
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="home">
+        <div class="text">
+          <h1>HELLO WORLD!</h1>
+          <br />
+          <h2>I am Harsha Vardhan</h2>
+          <br />
+          <p>
+            A <strong>Web Developer</strong> I specialize in crafting immersive
+            and user-centric web experiences. I am on a journey to master the
+            art of seamless web development.
+          </p>
+          <br />
+          <a href="#"><button class="button">Resume</button></a>
+        </div>
+        <div class="image">
+          <img src="images/profile.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h1 class="h1">ABOUT</h1>
+        <br />
+        <p>
+          Greetings! I'm Harsha, a forward-thinking Web developer and current
+          B.Tech student at Vishnu Institute of Technology. With a strong
+          foundation in Computer Engineering from A.A.N.M & V.V.R.S.R Polytechnic, Gudlavalleru.
+          I specialize in crafting immersive and user-centric web experiences.
+          Proficient in HTML, CSS, JavaScript, and currently exploring the
+          intricacies of Ux/Ui, I am on a journey to master the art of
+          seamless web development. Beyond coding, my interest in ethical
+          hacking adds an extra layer to my skill set, contributing to a
+          holistic approach to digital security. This digital hub showcases my
+          diverse projects, reflecting my commitment to staying ahead in the
+          ever-evolving tech landscape. Let's explore innovation together!
+          💡💻🌐
+        </p>
+      </div>
+      <h1 class="h1" id="skills">SKILLS</h1>
+      <div class="skills">
+        <div class="skill">
+          🚀 Web Developer & Tech Enthusiast <br>💻 Tech Stack: <br> Skilled in HTML,
+          CSS, JavaScript, Node.js, Python, C, and Java. Specializing in
+          crafting seamless and user-friendly web applications. <br> 🛠️ Skills: <br> Web
+          Development, HTML, CSS, JavaScript, Node.js, Python, C, Java, Data
+          Structures. <br> 🌐 Aspirations: <br> Passionate about leveraging technology for
+          positive change, aspiring to contribute to the ever-evolving fields of
+          web development.
+        </div>
+        <div>
+          <img src="images/full-stack.jpeg" alt="skills" />
+        </div>
+      </div>
+      <h1 class="h1" id="projects">PROJECTS</h1>
+      <div class="projects">
+        <div class="qr">
+          <h3>Project on Waste Management:</h3><br>
+          <p>
+            Embark on a waste management revolution with our innovative project, each person
+            utilizing their own mobile to take action on the waste management on their own. Experience
+            the efficiency of mobiles to bring their use into more reality.
+          </p>
+        </div>
+
+        <div class="web">
+          <h3>Automobile online website:</h3><br>
+          <p>
+            Embark on a Automobile revolution with our innovative project,
+            utilizing our website to know more about the branded Cars..
+          </p>
+        </div>
+      </div>
+      <h1 class="h1" id="contact">CONTACT</h1>
+      <div class="contact">
+          <!-- Email:mandaharshavardhan701@gmail.com <br />
+          Mobile:9392827528 <br />
+          Address:Flat no-306, A-Block, Ganes Grand Apartments, Bypass road, Gudivada, Gudivada Mandal,
+          Krishna, AP-521301 -->
+          <div class="logos">
+            <a href=""><img src="images/linkedin-logo.png" alt="linkedin" class="logo"></a>
+            <a href="mandaharshavardhan701@gmail.com"><img src="images/emai-logo.png" alt="" class="logo"></a>
+            <a href=""><img src="images/facebook -logo.png" alt="" class="logo"></a>
+            <a href=""><img src="images/instagram-logo.png" alt="" class="logo"></a>
+            <a href=""><img src="images/twitter-logo.png" alt="" class="logo"></a>
+          </div>
+      </div>
+    </section>
+    <footer>Copyright@HarshaVardhanManda 2024</footer>
+    <script>
+      function toogleMenu(){
+        const toogle= document.querySelector('.toogle');
+        const navigation=document.querySelector('.navigation');
+        toogle.classList.toggle('active');
+        navigation.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
